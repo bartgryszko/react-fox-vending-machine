@@ -45,7 +45,7 @@ export default class VendingInterface extends Component {
                   <span className={styles.name}>{shape.name}</span>
                   <span className={styles.price}>
                     {
-                      shape.price - (credits[shape.id] || 0) === 1 ? 'Get it!' : `${shape.price - (credits[shape.id] || 0)} clicks`
+                      `${shape.price - (credits[shape.id] || 0)} click${shape.price - (credits[shape.id] || 0) > 1 ? 's' : ''}`
                     }
                   </span>
                 </li>
