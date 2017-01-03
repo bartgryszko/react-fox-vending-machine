@@ -8,6 +8,8 @@
   2. You can get as many foxes as you like
   3. Navigate through your collection using arrows on the screen
 
+  ![Screen shot](./screenshot.png)
+
 ## Install
 
 Clone repository and run:
